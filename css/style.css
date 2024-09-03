@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    /*background-image: url("fondo.jpg");*/
+}
+.barra-navegacion {
+    width: 87%;
+    margin: auto;
+}
+header {
+    padding: 5px 0;
+    background: #FFF;
+}
+header .barra-navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.separador {
+    border: none;
+    border-top: 2px solid #999; 
+    margin: 0px; 
+}
+
+img{
+    max-width: 100%;
+}
+.lista{
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    gap: 20px;
+    margin: 25px;
+}
+.producto{
+    border-radius: 50px;
+
+}
+.producto img{
+    border-radius: 10px;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+.info-producto{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;  
+}
+.boton{
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    background: none;
+    background-color: #000;
+    color: #FFF;
+    padding: 10px 10px;
+}
+.mas-info {
+    display: flex;                   
+    align-items: center;            
+    gap: 20px;                       
+    margin: 50px;
+}
+
+.mas-info img {
+    border-radius: 10px;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;                    
+}
+
+.descripcion {
+    width: 80%;
+    display: flex;
+    flex-direction: column;       
+}
+.icono{
+    width: 30px;
+    height: 30px;
+    stroke: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    stroke: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p{
+    text-align: center;
+    color: #888;
+    padding: 40px;
+}
+.titulo{
+    text-align: center;
+    padding: 40px;
+}
+.lista-productos{
+    display: grid;  
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    gap: 20px;
+    margin: 25px;
+}
+.descrip{
+    background-color: #f9f9f9;
+}
+.boton{
+    align-items: center;
+    text-align: center;
+    border: Gold;
+    background: #FFF;
+    background-color: #000;
+    color: #FFF;
+    padding: 10px 10px;
+}
